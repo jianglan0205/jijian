@@ -1,0 +1,186 @@
+/* CSS reset↓ */
+* {
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+/* style */
+body {
+  background: #eee;
+  background: url("f1aec647942df0b3d435c586f21a64ac");
+  background-size: cover;
+}
+.globalHeader {
+  margin: 20px;
+  /* 居中,margin:20px 20px的简写,上下20px,左右20px */
+}
+@media (min-width: 500px) {
+  .globalHeader {
+    margin: 200px 0 60px 0;
+  }
+}
+.searchForm {
+  display: flex;
+  /* flex布局 */
+  justify-content: space-between;
+}
+@media (min-width: 500px) {
+  .searchForm {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/* 媒体查询,小于500px的不管,且在大于500px时,会和上面的.searchForm合并 */
+/* 当这个元素有最大宽度,或者宽度固定的时候,可以用margin来做居中,margin:0 auto不太好,0会覆盖别人的上下margin*/
+@media (max-width: 500px) {
+}
+/* 媒体查询,大于500px的不管 */
+.searchForm > input {
+  width: 100%;
+  margin-right: 10px;
+  /* input和搜索中间10px */
+  height: 40px;
+  padding: 0 10px;
+  /* 内部输入的内容,上下0px,左右10px */
+  border: 1px solid #ddd;
+  /* 加圆角的时候先把默认border覆盖掉,不然很奇怪 */
+  border-radius: 4px;
+  /* 加个4px的圆角 */
+}
+.searchForm > button {
+  white-space: nowrap;
+  /* 搜索两个字不换行 */
+  padding: 0 28px;
+  /* 让按钮自然点 */
+  border: none;
+  border-radius: 4px;
+  /* 同input里的,none掉或覆盖掉 */
+  background: #0282b9;
+  color: white;
+  font-size: 16px;
+  /* https://www.iconfont.cn/里直接拿到 */
+}
+.globalMain {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.siteList {
+  margin: 20px;
+  /* 上下左右各20px */
+  display: flex;
+  /* 变成内联 */
+  flex-wrap: wrap;
+  /* 大格子换行 */
+  justify-content: space-between;
+}
+@media (min-width: 500px) {
+  .siteList {
+    margin-left: 0;
+    margin-right: -25px;
+    justify-content: flex-start;
+    /* 覆盖space-between */
+  }
+}
+/* 干掉pc版的左右margin */
+.siteList > li {
+  margin-bottom: 10px;
+}
+@media (min-width: 500px) {
+  .siteList > li {
+    margin-right: 25px;
+  }
+}
+.siteList .site {
+  width: 160px;
+  display: flex;
+  justify-content: center;
+  /* 字居中 */
+  align-items: center;
+  /* 字上下居中 */
+  flex-direction: column;
+  /* 字竖着显示 */
+  background: #eee;
+  border-radius: 4px;
+  /* 圆角 */
+  padding: 20px 0;
+  /* 上下间距 */
+  position: relative;
+  /* 给close做定位 */
+  cursor: pointer;
+  /* 鼠标变成手 */
+}
+.siteList .site > .logo {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* A居中 */
+  font-size: 64px;
+  /* A大小 */
+  text-transform: uppercase;
+  /* 全大写 */
+}
+.siteList .site > .link {
+  font-size: 14px;
+  margin-top: 4px;
+}
+.siteList .site > .close {
+  position: absolute;
+  right: 6px;
+  top: 2px;
+  display: none;
+  cursor: default;
+}
+.siteList .site:hover > .close {
+  display: block;
+}
+/* 鼠标附上去显示X */
+.siteList .addButton {
+  border: 1px solid #ddd;
+  background: white;
+  width: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* 三句话居中 */
+  flex-direction: column;
+  /* 变成上下结构 */
+  padding: 20px 0;
+}
+.siteList .addButton .icon {
+  width: 64px;
+  height: 64px;
+}
+.siteList .addButton .text {
+  font-size: 14px;
+  margin-top: 4px;
+}
+.siteList .addButton .icon-wrapper {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* 三句话+居中 */
+}

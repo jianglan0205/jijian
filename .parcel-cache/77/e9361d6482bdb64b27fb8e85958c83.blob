@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <title>前航</title>
+    <!-- 引入的+图标 -->
+    <style data-parcel-key="f1b4f9fe2c0984dfcab604c967d181f3">
+        .icon {
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+        }
+    </style>
+    <link rel="stylesheet" href="6fd9c25ada84e0f080f958361119d36b">
+</head>
+
+<body>
+    <header class="globalHeader">
+        <form class="searchForm" method="get" action="https://www.baidu.com/s">
+            <!-- action通过搜索随便一个关键字复制来,target选择打开方式为新标签页-为了用户体验一般不加 -->
+            <input name="wd" type="text">
+            <!-- 让name等于wd就能获取到用户搜索的关键字 -->
+            <button type="submit">搜索</button>
+            <!-- type默认就是submit -->
+        </form>
+    </header>
+    <main class="globalMain">
+        <ul class="siteList">
+            <li class="last">
+                <div class="addButton">
+                    <div class="icon-wrapper">
+                        <svg class="icon">
+                            <use xlink:href="#icon-add"></use>
+                        </svg>
+                    </div>
+                    <div class="text">新增网站</div>
+                </div>
+            </li>
+        </ul>
+    </main>
+    <script src="966cf981349b026fb3d6aa19ddda886d"></script>
+    <script src="278700badb54fb306cb49a95f21c3ff5"></script>
+    <!-- bootcdn.cn搜索jquery用min这个,放在引入main.js前 -->
+    <script src="5eaff2b840cb692f3b9be3c81da8a6ab"></script>
+</body>
+
+</html>
