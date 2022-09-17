@@ -1,0 +1,22 @@
+21
+48C:\Users\25045\Desktop\xiangmu\nav-1\src\main.js132767618195736932 0
+47C:\Users\25045\Desktop\xiangmu\nav-1\src\images132762762457904922 1
+41C:\Users\25045\Desktop\xiangmu\nav-1\dist133078748272214837 1
+40C:\Users\25045\Desktop\xiangmu\nav-1\src132754098417089817 1
+58C:\Users\25045\Desktop\xiangmu\nav-1\src\images\bizhi2.jpg132762667002331493 0
+51C:\Users\25045\Desktop\xiangmu\nav-1\src\index.html132762697387505347 0
+58C:\Users\25045\Desktop\xiangmu\nav-1\src\images\bizhi3.jpg132762761270837657 0
+50C:\Users\25045\Desktop\xiangmu\nav-1\src\style.css132762766019044417 0
+59C:\Users\25045\Desktop\xiangmu\nav-1\src\images\bizhi1.jpeg132762660522399973 0
+58C:\Users\25045\Desktop\xiangmu\nav-1\src\images\bizhi4.jpg132762762459504081 0
+61C:\Users\25045\Desktop\xiangmu\nav-1\dist\bizhi4.47da779f.jpg133078748271432496 0
+64C:\Users\25045\Desktop\xiangmu\nav-1\dist\index.2cdaf7bc.css.map133078748271432496 0
+61C:\Users\25045\Desktop\xiangmu\nav-1\dist\bizhi4.e38ea76a.jpg132767626992656751 0
+59C:\Users\25045\Desktop\xiangmu\nav-1\dist\index.19f94610.js132767626992636791 0
+63C:\Users\25045\Desktop\xiangmu\nav-1\dist\index.19f94610.js.map132767626992746519 0
+60C:\Users\25045\Desktop\xiangmu\nav-1\dist\index.2cdaf7bc.css133078748271432496 0
+60C:\Users\25045\Desktop\xiangmu\nav-1\dist\index.bb6290e9.css132767626992627136 0
+64C:\Users\25045\Desktop\xiangmu\nav-1\dist\index.bb6290e9.css.map132767626992806367 0
+59C:\Users\25045\Desktop\xiangmu\nav-1\dist\index.de158e3a.js133078748272214837 0
+63C:\Users\25045\Desktop\xiangmu\nav-1\dist\index.de158e3a.js.map133078748272214837 0
+52C:\Users\25045\Desktop\xiangmu\nav-1\dist\index.html133078748271744625 0
